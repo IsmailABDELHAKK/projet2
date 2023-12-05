@@ -5,6 +5,7 @@ console.log('Tableau des membres de l\'équipe : ', team);
 // TODO: Affichage des destinations dans la section #destinations de la page d'accueil
 // Appel de la fonction getDestinations
 // getDestinations(destinations);
+getDestinations(destinations);
 
 // Affichage des membres de l'équipe dans la section #about de la page d'accueil
 // Appel de la fonction getTeam
