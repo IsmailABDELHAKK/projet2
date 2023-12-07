@@ -19,11 +19,16 @@ function getTeam(team) {
         // Ajout du contenu HTML dans chaque élément HTML créé avec le contenu du tableau team
         teamContainer.innerHTML = `
             <div class="card-team">
-                <div class="card-team-avatar"></div>
-                <div class="card-team-content">
-                    <h3>${team[i].name}</h3>
-                    <p>${team[i].job}</p>
+            
+               
+                <img class="card-team-avatar" src="${team[i].img}"/>
+                
                 </div>
+                <div class="card-team-content">
+                <h3>${team[i].name}</h3>
+                <p>${team[i].job}</p>
+                </div>
+
             </div>
         `;
         // Ajout de chaque élément HTML créé dans la section #about de la page d'accueil

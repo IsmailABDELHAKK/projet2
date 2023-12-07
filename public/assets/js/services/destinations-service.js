@@ -11,11 +11,21 @@ console.log('assets/js/destinations-service.js chargé ✅');
 function getDestination(destinations, destinationId) {
     // TODO:
     // Initialisation des variables result et error
+    let result;
+    let error = '';
     // Boucle sur le tableau des destinations pour trouver la destination correspondante à l'id
+    for (let i = 0; i < destinationId.length; i++);
         // Debug
+
         // console.log(destinations[i].id);
+        console.log(destinations[i].id);
         // si l'id de la destination correspond à destinationId
             // on stocke la destination dans la variable result
+            if (id === destinationId[i].id) {
+                result = destinationId[i]
+            } else {
+                error = "Not Found"
+            }
     // fin de la boucle
     // Si la variable result est vide (undefined)
     // cela signifie que l'id de la destination n'existe pas
