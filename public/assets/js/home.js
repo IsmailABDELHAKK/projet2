@@ -18,7 +18,8 @@ ScrollReveal().reveal('#destinations', { delay: 500 });
 ScrollReveal().reveal('#contact', { delay: 700 });
 
 // Gestion du scroll vers le haut de la page
-window.scrollTo({
+window.scrollTo({ 
+
     top: 0,
     behavior: 'smooth'
 });

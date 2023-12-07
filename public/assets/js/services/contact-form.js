@@ -6,9 +6,9 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     // Debug
     console.log('Formulaire soumis');
     // Récupération des valeurs des champs du formulaire dans des variables
-    let name = "TODO: à compléter";
-    let email = "TODO: à compléter"
-    let message = "TODO: à compléter"
+    let name = "";
+    let email = "";
+    let message = "";
     // Debug
     console.log(name, email, message);
     // Création d'un objet avec les valeurs des champs du formulaire

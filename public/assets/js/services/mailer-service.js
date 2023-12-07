@@ -17,8 +17,8 @@ function sendMail(infoContact) {
 	// L'envoie d'email peut se vérifier dans l'interface d'EmailJS
 	return Email.send({
 		Host: "smtp.elasticemail.com",
-		Username: "TODO: à compléter",
-		Password: "TODO: à compléter",
+		Username: "camille.uras@outlook.fr",
+		Password: "DE9413C32B39587F712E148CB494F30000D2",
 		To: 'contact@gmail.com',
 		From: "les-gardiens-dela-galaxie@gmail.com",
 		Subject: "Une demande de contact depuis le site Space Tour",
